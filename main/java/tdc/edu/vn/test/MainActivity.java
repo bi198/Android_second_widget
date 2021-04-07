@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        control_layout = findViewById(R.id.control_layout);
-        View   view = getLayoutInflater().inflate(R.layout.control_layout,control_layout,true);
+//        control_layout = findViewById(R.id.control_layout);
+//        View   view = getLayoutInflater().inflate(R.layout.control_layout,control_layout,true);
     }
 }

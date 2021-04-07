@@ -18,13 +18,13 @@
 
     </LinearLayout>
 
-    <LinearLayout
+    <tdc.edu.vn.test.widget.Player
         android:id="@+id/control_layout"
         android:orientation="horizontal"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="0dp">
 
-    </LinearLayout>
+    </tdc.edu.vn.test.widget.Player>
 
 </LinearLayout>

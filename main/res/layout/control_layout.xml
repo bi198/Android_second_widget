@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/player_bg"
-    tools:context=".MainActivity"
     android:orientation="horizontal"
     android:id="@+id/control_layout"
     tools:ignore="InvalidId">
@@ -13,43 +12,48 @@
         <ImageView
             android:id="@+id/imgView_previous_btn"
             android:scaleType="fitXY"
+            android:clickable="true"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/ic_prev"
+           android:src="@drawable/previous_btn"
 
             />
 
         <ImageView
             android:id="@+id/imgView_play_btn"
             android:scaleType="fitXY"
+            android:clickable="true"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/ic_play" />
+            android:src="@drawable/play_btn"/>
 
         <ImageView
             android:id="@+id/imgView_pause_btn"
             android:scaleType="fitXY"
+            android:clickable="true"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/ic_pause" />
+            android:src="@drawable/pause_btn"/>
 
         <ImageView
             android:id="@+id/imgView_stop_btn"
             android:scaleType="fitXY"
+            android:clickable="true"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/ic_stop" />
+            android:src="@drawable/stop_btn"/>
 
         <ImageView
             android:id="@+id/imgView_next_btn"
             android:scaleType="fitXY"
+            android:clickable="true"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/ic_next" />
+            android:src="@drawable/next_btn"/>
 
 </LinearLayout>
